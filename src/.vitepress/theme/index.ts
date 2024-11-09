@@ -1,6 +1,6 @@
 import { Theme, inBrowser, useRoute } from "vitepress"
 import DefaultTheme from "vitepress/theme"
-// import Layout from "@/layout/index.vue"
+import Layout from "@/layout/index.vue"
 // import useElIcon from "@element-plus/icons-vue/global"
 // import elementPlus from "element-plus"
 import "@/style/index.scss"
@@ -17,7 +17,7 @@ import "@/style/index.scss"
 
 const theme: Theme = {
   ...DefaultTheme,
-  // Layout,
+  Layout,
   // NotFound: () => "custom 404",
   // enhanceApp(ctx) {
   //   DefaultTheme.enhanceApp(ctx)

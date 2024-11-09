@@ -44,6 +44,13 @@ export default defineConfig({
         "element-plus"
       ],
     },
+    css: {
+      preprocessorOptions: {
+        scss: {
+          api: 'modern-compiler'
+        },
+      },
+    },
     plugins: [
       svgLoader(),
       AutoImport({

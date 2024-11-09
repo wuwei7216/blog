@@ -1,0 +1,36 @@
+$namespace: 'k'; // 命名空间
+$element-separator: '__'; // 元素分隔
+$modifier-sparator: '--'; // 装饰分隔
+$state-prefix: 'is-'; // 状态前缀
+
+// .k-button{}
+@mixin b($block) {
+  .#{$namespace + "-" + $block} {
+    @content;
+  }
+}
+
+// &.is-disabled => .k-button.is-disabled{}
+@mixin when($state) {
+  @at-root {
+    &.#{$state-prefix + $state} {
+      @content;
+    }
+  }
+}
+
+// &--primary => .k-button--primary{}
+@mixin m($modifier) {
+  @at-root {
+    #{& + $modifier-sparator + $modifier} {
+      @content;
+    }
+  }
+}
+
+// &__header => .k-button__header
+@mixin e($element) {
+  #{& + $element-separator + $element} {
+    @content;
+  }
+}
