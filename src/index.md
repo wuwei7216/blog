@@ -28,9 +28,9 @@ features:
 
 <script setup>
 import GithubChart from './components/GithubChart.vue'
-import SitePv from './components/SitePv.vue'
+// import SitePv from './components/SitePv.vue'
 </script>
 
 <GithubChart />
 
-<SitePv />
+<!-- <SitePv /> -->

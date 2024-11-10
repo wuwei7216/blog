@@ -15,6 +15,27 @@
   </div>
 </template>
 
+<script >
+/* 不蒜子访问量统计 */
+let script;
+
+export default {
+  async mounted() {
+    script = await import("busuanzi.pure.js");
+    script?.fetch();
+  },
+  // 监听,当路由发生变化的时候执行
+  watch: {
+    $route(to, from) {
+      if (to.path != from.path) {
+        script.fetch();
+      }
+      // console.log(to.path);
+    }
+  }
+};
+</script>
+
 <style lang="scss" scoped>
 @media (min-width: 960px) {
   .home .VPHero.has-image .main {

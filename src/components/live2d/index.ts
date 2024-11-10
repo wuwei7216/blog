@@ -1,6 +1,6 @@
 import type { Application, ApplicationOptions } from "pixi.js"
 import type { Live2DModel as Live2DModelType } from "pixi-live2d-display"
-import { HitokotoOptions, Hitokoto } from "./hitokoto"
+import { HitokotoOptions, Hitokoto } from "../hitokoto"
 
 import {
   loadAsyncJs,
