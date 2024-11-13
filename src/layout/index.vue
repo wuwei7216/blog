@@ -8,7 +8,7 @@
 </template>
 
 <script setup lang="ts">
-import { useData } from "vitepress"
+import { useData, inBrowser } from "vitepress"
 import defaultLayout from "vitepress/dist/client/theme-default/Layout.vue"
 import { computed} from "vue"
 // import Comment from "./Comment.vue"
@@ -20,6 +20,18 @@ import FirstLoading from "./FirstLoading.vue"
 const data = useData()
 
 const getCurClass = computed(() => data.frontmatter.value.class)
+
+
+if (inBrowser) {
+  const resize = () => {
+    let vh = window.innerHeight
+    console.log(vh);
+    
+    document.documentElement.style.setProperty("--vh", `${vh}px`)
+  }
+  window.addEventListener("resize", resize)
+  resize()
+}
 
 </script>
 <style lang="scss" scoped>

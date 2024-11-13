@@ -75,6 +75,7 @@ export default defineConfig({
     },
     // https://vitepress.dev/reference/default-theme-config
     nav: [
+      { text: "GPT", link: "/pages/chatGPT" },
       {
         text: "文章",
         items: generateNav(Article),
