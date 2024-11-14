@@ -8,12 +8,12 @@ export const OpenAIStream = async (
   const decoder = new TextDecoder()
 
   const res = await fetch(
-    "https://api.binjie.fun/api/generateStream?refer__1360=WqGxBD9DuQ3Ywq05o4%2BxCwf4A27DgWhC1hYD",
+    "http://8.148.5.174:8001/api/generateStream?refer__1360=WqGxBD9DuQ3Ywq05o4%2BxCwf4A27DgWhC1hYD",
     {
       headers: {
         "Content-Type": "application/json",
-        Origin: "https://chat18.aichatos.xyz",
-        referer: "https://chat18.aichatos.xyz/",
+        // Origin: "https://chat18.aichatos.xyz",
+        // referer: "https://chat18.aichatos.xyz/",
         // Authorization: `Bearer ${apiKey}`,
       },
       method: "POST",
