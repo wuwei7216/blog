@@ -77,7 +77,7 @@ const allowType = ref<AllowType[]>(["mouse", "pen", "touch"])
 
 onMounted(() => {
   canvasGraffiti = new CanvasGraffiti({
-    el: "#canvas",
+    el: "#canvas"
   })
   canvasGraffiti.ctx.canvas.width = canvasGraffiti.ctx.canvas.offsetWidth
   colorChange()

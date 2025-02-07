@@ -8,7 +8,7 @@ export const OpenAIStream = async (
   const decoder = new TextDecoder()
 
   const res = await fetch(
-    "http://8.148.5.174:8001/api/generateStream?refer__1360=WqGxBD9DuQ3Ywq05o4%2BxCwf4A27DgWhC1hYD",
+    "http://8.148.5.174:8008/api/generateStream?refer__1360=mqGx2Dcieiq7qx0vnDUxQqDvl70z8a4D",
     {
       headers: {
         "Content-Type": "application/json",
@@ -19,7 +19,7 @@ export const OpenAIStream = async (
       method: "POST",
       body: JSON.stringify({
         prompt: msg[msg.length - 1].content,
-        userId: "#/chat/1702972239753",
+        userId: "#/chat/1698130811408",
         network: true,
         system: "",
         withoutContext: false,

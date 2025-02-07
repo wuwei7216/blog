@@ -2,9 +2,13 @@
 
 包含网址导航、软件分享、HTML、CSS、JavaScript、Vue、React、TypeScript、Node.js...
 
-此仓库为个人博客[点我查看](https://kuangyx.cn/)
+此仓库为个人博客[点我查看](http://8.148.5.174:8008/)
 
-- [网址导航](https://kuangyx.cn/pages/navigation.html)
+## 部署
+
+pnpm build 然后 从宝塔控制面板 放到服务器 8.148.5.174
+
+<!-- - [网址导航](https://kuangyx.cn/pages/navigation.html)
 - [软件分享](https://kuangyx.cn/pages/software.html)
 - [在线游戏](https://kuangyx.cn/pages/game.html)
 - JS 库
@@ -32,4 +36,4 @@
   - [vue 预览 word 文件 docx](https://kuangyx.cn/docs/%E6%96%87%E7%AB%A0/%E5%89%8D%E7%AB%AF/vue%E9%A2%84%E8%A7%88word%E6%96%87%E4%BB%B6docx.html)
   - [vue 前端预览 Excel 表格（导入导出）](https://kuangyx.cn/docs/%E6%96%87%E7%AB%A0/%E5%89%8D%E7%AB%AF/vue%E9%A2%84%E8%A7%88Excel%E8%A1%A8%E6%A0%BC.html)
   - [css 实现不规则透明盒子滚动边框](https://kuangyx.cn/docs/%E6%96%87%E7%AB%A0/%E5%89%8D%E7%AB%AF/css%E5%AE%9E%E7%8E%B0%E4%B8%8D%E8%A7%84%E5%88%99%E9%80%8F%E6%98%8E%E7%9B%92%E5%AD%90%E6%BB%9A%E5%8A%A8%E8%BE%B9%E6%A1%86.html)
-  - ...
+  - ... -->
