@@ -79,7 +79,7 @@ export default defineConfig({
       {
         text: "文章",
         items: generateNav(Article),
-      },
+      }
     ],
 
     sidebar: {

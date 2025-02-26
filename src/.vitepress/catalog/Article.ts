@@ -9,5 +9,12 @@ export const Article = [
       { text: "瓦片地图", link: "/docs/文章/tools/瓦片地图" },
       { text: "el虚拟化树形控件(未完成)", link: "/docs/文章/tools/el虚拟化树形控件" },
     ],
+  },
+  {
+    text: "面试八股文",
+    collapsed: true,
+    items: [
+      { text: "常见手写题", link: "/docs/文章/viewQuestion/常见手写题" },
+    ],
   }
 ]
