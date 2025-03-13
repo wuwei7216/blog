@@ -25,6 +25,5 @@ declare module 'vue' {
     ElSlider: typeof import('element-plus/es')['ElSlider']
     ElSpace: typeof import('element-plus/es')['ElSpace']
     ElTree: typeof import('element-plus/es')['ElTree']
-    ElTreeV2: typeof import('element-plus/es')['ElTreeV2']
   }
 }

@@ -8,11 +8,11 @@ hero:
   tagline: 包含web基础技术css、js、html、node.js和前端框架vue、react
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: 个人简历
+      link: http://8.148.5.174:8001/
+    # - theme: alt
+    #   text: API Examples
+    #   link: /api-examples
 
 features:
   - icon: ❤
